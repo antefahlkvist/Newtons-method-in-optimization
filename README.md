@@ -1,5 +1,10 @@
-Repository contains a few notebooks with different variants of Newton's method for convex optimization. $\in$
+Repository contains a few notebooks with different variants of Newton's method for convex optimization.
 
-1. Solving the problem x^T * A * x - sum(log(x)) using Newton's method, with backtracking line search.
+1. Solving the problem
+$x^TA x - sum_{i = 1}^n log(x_i)$
+using Newton's method.
 
-2.  Solving the problem x^T * A * x -sum(log(x)) using Newton's method, with equality constraint. 
+2.  Solving the problem
+ $x^TA x - sum_{i = 1}^n log(x_i)$
+subject to $Ax = b$
+using Newton's method. 
