@@ -10,6 +10,6 @@ subject to $Ax = b$
 using Newton's method.
 
 3.  Solving the problem
-$$f(x) = \frac{1}{2}x^TAx + b^tx$$
+$$f(x) = \frac{1}{2}x^TAx + b^Tx$$
 subject to $x \geq 0$
 using a barrier method. 
