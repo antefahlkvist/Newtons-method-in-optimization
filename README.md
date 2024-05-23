@@ -7,4 +7,9 @@ using Newton's method.
 2.  Solving the problem
 $$f(x) = \frac{1}{2}x^TAx - \sum_{i=1}^n \log(x_i)$$
 subject to $Ax = b$
-using Newton's method. 
+using Newton's method.
+
+3.  Solving the problem
+$$f(x) = \frac{1}{2}x^TAx + b^tx$$
+subject to $x \geq 0$
+using a barrier method. 
